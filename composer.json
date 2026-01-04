@@ -1,7 +1,7 @@
 {
   "name": "justintime50/phpcs-short-scalar-types",
   "description": "PHPCS sniff to enforce short scalar type names in comments (bool, int, etc.)",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "type": "phpcodesniffer-standard",
   "license": "MIT",
   "authors": [
@@ -11,17 +11,20 @@
     }
   ],
   "scripts": {
-    "fix": "vendor/bin/phpcbf --standard=ShortTypes tests/ShortScalarTypesSniffTest.inc",
-    "test": "vendor/bin/phpcs --standard=ShortTypes tests/ShortScalarTypesSniffTest.inc"
+    "fix": "./bin/phpcbf --standard=ShortTypes tests/ShortScalarTypesSniffTest.inc",
+    "test": "./bin/phpcs --standard=ShortTypes tests/ShortScalarTypesSniffTest.inc"
   },
   "require": {
     "php": ">=7.0",
     "squizlabs/php_codesniffer": ">=3.0"
   },
+  "require-dev": {},
+  "config": {
+    "bin-dir": "bin"
+  },
   "autoload": {
     "psr-4": {
       "ShortTypes\\": "ShortTypes/"
     }
-  },
-  "require-dev": {}
+  }
 }

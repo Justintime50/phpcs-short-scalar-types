@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v0.3.0 (2026-01-03)
+
+- Matches more comment types and does so more accurately (only targeting `@var`, `@param`, and `@return` types)
+
 ## v0.2.1 (2026-01-03)
 
 - Remove `double` and `real` types from erroring, focus the library on `integer` and `boolean` corrections. Double and real are valid words in comments
