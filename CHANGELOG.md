@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v0.2.1 (2026-01-03)
+
+- Remove `double` and `real` types from erroring, focus the library on `integer` and `boolean` corrections. Double and real are valid words in comments
+
 ## v0.2.0 (2026-01-03)
 
 - Swap `type` from `library` to `phpcodesniffer-standard` so it can be auto installed via `PHPCSStandards/composer-installer`

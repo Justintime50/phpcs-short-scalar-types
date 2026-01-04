@@ -11,8 +11,8 @@ class ShortScalarTypesSniff implements Sniff
     private const LONG_TO_SHORT = [
         'boolean' => 'bool',
         'integer' => 'int',
-        'double'  => 'float',
-        'real'    => 'float',
+        // 'double'  => 'float',
+        // 'real'    => 'float',
     ];
 
     public function register()
