@@ -1,4 +1,4 @@
-# PHPCS Short Scalar Type Sniff
+# PHPCS Short Scalar Types Sniff
 
 [![Licence](https://img.shields.io/github/license/justintime50/vcr-accessories-php)](LICENSE)
 
