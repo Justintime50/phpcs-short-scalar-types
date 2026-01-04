@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<ruleset name="Short Scalar Types">
+    <description>Enforce short scalar type names in comments.</description>
+    <rule ref="ShortTypes.Commenting.ShortScalarTypes" />
+</ruleset>
