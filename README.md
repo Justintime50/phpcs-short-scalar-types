@@ -8,7 +8,11 @@ A PHPCS sniff to enforce the use of short scalar type names (`bool`, `int`, etc.
 ## Install
 
 ```sh
+# Install Sniff
 composer require --dev justintime50/phpcs-short-scalar-types
+
+# Allow PHPCS to find Sniff (or use https://github.com/PHPCSStandards/composer-installer)
+vendor/bin/phpcs --config-set installed_paths vendor/justintime50/phpcs-short-scalar-types/ShortTypes
 ```
 
 ## Usage
