@@ -1,7 +1,8 @@
 {
   "name": "justintime50/phpcs-short-scalar-types",
   "description": "PHPCS sniff to enforce short scalar type names in comments (bool, int, etc.)",
-  "type": "library",
+  "version": "0.2.0",
+  "type": "phpcodesniffer-standard",
   "license": "MIT",
   "authors": [
     {
