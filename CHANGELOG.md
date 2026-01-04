@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v0.1.1 (2026-01-03)
+
+- Corrects minimum pin of `php_codesniffer`
+
 ## v0.1.0 (2026-01-03)
 
 - Initial release
