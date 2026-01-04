@@ -1,5 +1,6 @@
 # PHPCS Short Scalar Types Sniff
 
+[![Version](https://img.shields.io/github/v/tag/justintime50/phpcs-short-scalar-types)](https://github.com/justintime50/phpcs-short-scalar-types/releases)
 [![Licence](https://img.shields.io/github/license/justintime50/vcr-accessories-php)](LICENSE)
 
 A PHPCS sniff to enforce the use of short scalar type names (`bool`, `int`, etc.) in comments, instead of long names (`boolean`, `integer`, etc.).
