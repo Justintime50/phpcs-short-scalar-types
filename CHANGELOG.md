@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v1.0.0 (2026-03-18)
+
+- Drops support for php_codesniffer v3
+- Adds support for php_codesniffer v4
+- Drops support for PHP 7.0 & 7.1
+
 ## v0.3.0 (2026-01-03)
 
 - Matches more comment types and does so more accurately (only targeting `@var`, `@param`, and `@return` types)
